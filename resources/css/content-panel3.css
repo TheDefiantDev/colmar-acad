@@ -1,0 +1,107 @@
+.content-panel-3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    flex-direction: column;
+}
+
+.thesis-exhibit{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin:0rem;
+}
+
+.video-player{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1.5rem;
+}
+
+/*Mobile Query*/
+@media only screen and (max-width: 639px){
+    .thesis-sub-articles{
+        display: none;
+    }
+    
+    .thesis-sub-article-text{
+        display: none;
+    }
+}
+
+/*Desktop Query*/
+@media only screen and (min-width: 640px){
+    .content-section{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2rem;
+    }
+    
+    .video-section{
+        display: block;
+        width: 77%;
+        margin-right: 2.4rem;
+        margin-left: 1.5rem;
+    }
+    
+    .video-player{
+        width: 100%;
+        height: auto;
+        padding-bottom: 1.5rem;
+    }
+    
+    .video-section h4{
+        padding-bottom: 1.2rem;
+        margin-left: 0;
+    }
+    
+    .thesis-sub-article-text h4{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .thesis-sub-articles{
+        display: inline-block;
+        flex-direction: column;
+        width: 42.3rem;
+        border-left: 1px solid #e3e5e8;
+        flex-grow: 5;
+        height: 100%;
+        
+    }
+    
+    .thesis-sub-article{
+        padding: 1.6rem;
+        display: flex;
+        height: 10.8rem;;
+    }
+    
+    .thesis-sub-article-image{
+        height: 90%;
+        padding-right: 1.6px;
+    }
+    
+    .thesis-sub-article:hover{
+        background-color: #f4f6f9;
+    }
+    
+    .video-section h4{
+        font-size: 1.5rem;
+    }
+    
+    .thesis-sub-article-text{
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 1.6rem;
+        justify-content: center;
+    }
+    
+    .thesis-sub-article h4{
+        font-size: 2.4rem;
+    }
+    
+    .fisma{
+        border-bottom: 1px solid #e3e5e8;
+    }
+}
